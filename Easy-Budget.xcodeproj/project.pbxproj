@@ -97,11 +97,11 @@
 		868E200A20A94AF000A22AFB /* Easy-Budget */ = {
 			isa = PBXGroup;
 			children = (
+				868E203B20A94B6800A22AFB /* Model */,
+				868E203A20A94B6300A22AFB /* View */,
+				868E203920A94B5C00A22AFB /* Controller */,
 				868E200B20A94AF000A22AFB /* AppDelegate.swift */,
-				868E200D20A94AF000A22AFB /* ViewController.swift */,
-				868E200F20A94AF000A22AFB /* Main.storyboard */,
 				868E201220A94AF300A22AFB /* Assets.xcassets */,
-				868E201420A94AF300A22AFB /* LaunchScreen.storyboard */,
 				868E201720A94AF300A22AFB /* Info.plist */,
 			);
 			path = "Easy-Budget";
@@ -123,6 +123,30 @@
 				868E202D20A94AF300A22AFB /* Info.plist */,
 			);
 			path = "Easy-BudgetUITests";
+			sourceTree = "<group>";
+		};
+		868E203920A94B5C00A22AFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				868E200D20A94AF000A22AFB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		868E203A20A94B6300A22AFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				868E201420A94AF300A22AFB /* LaunchScreen.storyboard */,
+				868E200F20A94AF000A22AFB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		868E203B20A94B6800A22AFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
