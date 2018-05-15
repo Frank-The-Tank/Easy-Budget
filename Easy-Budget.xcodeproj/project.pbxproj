@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		868E200C20A94AF000A22AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E200B20A94AF000A22AFB /* AppDelegate.swift */; };
-		868E200E20A94AF000A22AFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E200D20A94AF000A22AFB /* ViewController.swift */; };
+		868E200E20A94AF000A22AFB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E200D20A94AF000A22AFB /* HomeVC.swift */; };
 		868E201120A94AF000A22AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868E200F20A94AF000A22AFB /* Main.storyboard */; };
 		868E201320A94AF300A22AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868E201220A94AF300A22AFB /* Assets.xcassets */; };
 		868E201620A94AF300A22AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868E201420A94AF300A22AFB /* LaunchScreen.storyboard */; };
 		868E202120A94AF300A22AFB /* Easy_BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E202020A94AF300A22AFB /* Easy_BudgetTests.swift */; };
 		868E202C20A94AF300A22AFB /* Easy_BudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E202B20A94AF300A22AFB /* Easy_BudgetUITests.swift */; };
+		868E204120A9CFB800A22AFB /* CreateNewBudgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204020A9CFB800A22AFB /* CreateNewBudgetVC.swift */; };
+		868E204320A9D22400A22AFB /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204220A9D22400A22AFB /* RoundBtn.swift */; };
+		868E204520A9D53600A22AFB /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204420A9D53600A22AFB /* Budget.swift */; };
+		868E204720A9DF9600A22AFB /* BudgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204620A9DF9600A22AFB /* BudgetVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		868E200820A94AF000A22AFB /* Easy-Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy-Budget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868E200B20A94AF000A22AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		868E200D20A94AF000A22AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		868E200D20A94AF000A22AFB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		868E201020A94AF000A22AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		868E201220A94AF300A22AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868E201520A94AF300A22AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		868E202720A94AF300A22AFB /* Easy-BudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy-BudgetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868E202B20A94AF300A22AFB /* Easy_BudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_BudgetUITests.swift; sourceTree = "<group>"; };
 		868E202D20A94AF300A22AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868E204020A9CFB800A22AFB /* CreateNewBudgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewBudgetVC.swift; sourceTree = "<group>"; };
+		868E204220A9D22400A22AFB /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		868E204420A9D53600A22AFB /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		868E204620A9DF9600A22AFB /* BudgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +136,9 @@
 		868E203920A94B5C00A22AFB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				868E200D20A94AF000A22AFB /* ViewController.swift */,
+				868E200D20A94AF000A22AFB /* HomeVC.swift */,
+				868E204020A9CFB800A22AFB /* CreateNewBudgetVC.swift */,
+				868E204620A9DF9600A22AFB /* BudgetVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,6 +155,8 @@
 		868E203B20A94B6800A22AFB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				868E204220A9D22400A22AFB /* RoundBtn.swift */,
+				868E204420A9D53600A22AFB /* Budget.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -280,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868E200E20A94AF000A22AFB /* ViewController.swift in Sources */,
+				868E200E20A94AF000A22AFB /* HomeVC.swift in Sources */,
+				868E204120A9CFB800A22AFB /* CreateNewBudgetVC.swift in Sources */,
+				868E204520A9D53600A22AFB /* Budget.swift in Sources */,
 				868E200C20A94AF000A22AFB /* AppDelegate.swift in Sources */,
+				868E204320A9D22400A22AFB /* RoundBtn.swift in Sources */,
+				868E204720A9DF9600A22AFB /* BudgetVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
