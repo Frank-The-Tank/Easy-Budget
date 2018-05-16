@@ -18,6 +18,8 @@
 		868E204320A9D22400A22AFB /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204220A9D22400A22AFB /* RoundBtn.swift */; };
 		868E204520A9D53600A22AFB /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204420A9D53600A22AFB /* Budget.swift */; };
 		868E204720A9DF9600A22AFB /* BudgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E204620A9DF9600A22AFB /* BudgetVC.swift */; };
+		86F9C99B20ABA0A900612C1E /* ChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9C99A20ABA0A900612C1E /* ChartVC.swift */; };
+		C9E01AF06D539919C57532A0 /* Pods_Easy_Budget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60925BC5492F52A7FC65767D /* Pods_Easy_Budget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560BEA8DA9261C51C4A142F2 /* Pods-Easy-Budget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy-Budget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy-Budget/Pods-Easy-Budget.debug.xcconfig"; sourceTree = "<group>"; };
+		60925BC5492F52A7FC65767D /* Pods_Easy_Budget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_Budget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868E200820A94AF000A22AFB /* Easy-Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy-Budget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		868E200B20A94AF000A22AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		868E200D20A94AF000A22AFB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -55,6 +59,10 @@
 		868E204220A9D22400A22AFB /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		868E204420A9D53600A22AFB /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		868E204620A9DF9600A22AFB /* BudgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetVC.swift; sourceTree = "<group>"; };
+		86F9C99A20ABA0A900612C1E /* ChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVC.swift; sourceTree = "<group>"; };
+		8E91C718F16C0CACD4D1C457 /* Pods_Easy_BudgetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_BudgetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE7D21F8A4BD0683BAF2689 /* Pods_Easy_BudgetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_BudgetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E245E1DBF795AA3E9E53E7 /* Pods-Easy-Budget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy-Budget.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy-Budget/Pods-Easy-Budget.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E01AF06D539919C57532A0 /* Pods_Easy_Budget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CFFC8F430066B97F4B445FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560BEA8DA9261C51C4A142F2 /* Pods-Easy-Budget.debug.xcconfig */,
+				A6E245E1DBF795AA3E9E53E7 /* Pods-Easy-Budget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		868E1FFF20A94AF000A22AFB = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +107,8 @@
 				868E201F20A94AF300A22AFB /* Easy-BudgetTests */,
 				868E202A20A94AF300A22AFB /* Easy-BudgetUITests */,
 				868E200920A94AF000A22AFB /* Products */,
+				0CFFC8F430066B97F4B445FD /* Pods */,
+				E23EFF20DA925CE4A64DD871 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +159,7 @@
 				868E200D20A94AF000A22AFB /* HomeVC.swift */,
 				868E204020A9CFB800A22AFB /* CreateNewBudgetVC.swift */,
 				868E204620A9DF9600A22AFB /* BudgetVC.swift */,
+				86F9C99A20ABA0A900612C1E /* ChartVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +182,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E23EFF20DA925CE4A64DD871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60925BC5492F52A7FC65767D /* Pods_Easy_Budget.framework */,
+				8E91C718F16C0CACD4D1C457 /* Pods_Easy_BudgetTests.framework */,
+				9FE7D21F8A4BD0683BAF2689 /* Pods_Easy_BudgetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 868E203020A94AF300A22AFB /* Build configuration list for PBXNativeTarget "Easy-Budget" */;
 			buildPhases = (
+				91043BA1C6AB5CC73EF9D7D8 /* [CP] Check Pods Manifest.lock */,
 				868E200420A94AF000A22AFB /* Sources */,
 				868E200520A94AF000A22AFB /* Frameworks */,
 				868E200620A94AF000A22AFB /* Resources */,
+				76A3CAAB9DD65EE47016BE65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,6 +320,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76A3CAAB9DD65EE47016BE65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Easy-Budget/Pods-Easy-Budget-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easy-Budget/Pods-Easy-Budget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91043BA1C6AB5CC73EF9D7D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy-Budget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		868E200420A94AF000A22AFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,6 +367,7 @@
 				868E200E20A94AF000A22AFB /* HomeVC.swift in Sources */,
 				868E204120A9CFB800A22AFB /* CreateNewBudgetVC.swift in Sources */,
 				868E204520A9D53600A22AFB /* Budget.swift in Sources */,
+				86F9C99B20ABA0A900612C1E /* ChartVC.swift in Sources */,
 				868E200C20A94AF000A22AFB /* AppDelegate.swift in Sources */,
 				868E204320A9D22400A22AFB /* RoundBtn.swift in Sources */,
 				868E204720A9DF9600A22AFB /* BudgetVC.swift in Sources */,
@@ -468,6 +541,7 @@
 		};
 		868E203120A94AF300A22AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560BEA8DA9261C51C4A142F2 /* Pods-Easy-Budget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +560,7 @@
 		};
 		868E203220A94AF300A22AFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E245E1DBF795AA3E9E53E7 /* Pods-Easy-Budget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -291,6 +291,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wzI-Ut-DWx">
+                                <rect key="frame" x="0.0" y="139" width="375" height="528"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="j6V-1P-Bof" kind="embed" id="ERw-qS-NaG"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -310,7 +317,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yjs-lY-Im0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1854" y="-219"/>
+            <point key="canvasLocation" x="1853.5999999999999" y="-219.04047976011995"/>
+        </scene>
+        <!--ChartVC-->
+        <scene sceneID="uir-DH-Rb6">
+            <objects>
+                <viewController id="j6V-1P-Bof" customClass="ChartVC" customModule="Easy_Budget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BXS-tc-hwL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lu-7m-Yii" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="528"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPs-8E-r5M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1853.5999999999999" y="416.49175412293857"/>
         </scene>
     </scenes>
 </document>

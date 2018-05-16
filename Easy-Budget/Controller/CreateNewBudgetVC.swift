@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateNewBudgetVC: UIViewController {
+class CreateNewBudgetVC: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var grossIncomeVal: UITextField!
     @IBOutlet weak var locationVal: UITextField!
@@ -19,6 +19,7 @@ class CreateNewBudgetVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        grossIncomeVal.delegate = self
         // Do any additional setup after loading the view.
     }
 
@@ -27,7 +28,17 @@ class CreateNewBudgetVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {   //delegate method
+        textField.resignFirstResponder()
+        return true
+    }
+    
     @IBAction func cancelPressed(_ sender: Any) {
+        self.view.endEditing(true)
         performSegue(withIdentifier: "CancelSegue", sender: self)
     }
     
